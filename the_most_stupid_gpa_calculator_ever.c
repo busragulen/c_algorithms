@@ -58,7 +58,7 @@ void lectures(number){
     for (int k=0; k<=number; k++){
             weighted += user[k].ects;
         }    
-    for(int j=0; j<=number; j++){
+    for (int j=0; j<=number; j++){
             total += totalscores[j];
         }
     
