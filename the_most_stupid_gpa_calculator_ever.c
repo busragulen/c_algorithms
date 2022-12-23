@@ -55,17 +55,17 @@ void lectures(number){
             break;
         }
     }
-        for (int k=0; k<=number; k++){
+    for (int k=0; k<=number; k++){
             weighted += user[k].ects;
         }    
-        for(int j=0; j<=number; j++){
+    for(int j=0; j<=number; j++){
             total += totalscores[j];
         }
     
-            avr = total / weighted;
-            userGPA = avr*110/30;
+    avr = total / weighted;
+    userGPA = avr*110/30;
     
-            printf("your gpa is %.2f .", userGPA);
+    printf("your gpa is %.2f .", userGPA);
 }
 
 // this gpa calculating method is coded according to university of bologna's reformed gradues gpa system which is max grade is 110. actually i think it doesnt matter how to calculate it, i am just trying to practice c XD 
